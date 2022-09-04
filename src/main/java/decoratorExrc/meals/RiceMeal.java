@@ -1,4 +1,4 @@
-package decoratorExrc;
+package decoratorExrc.meals;
 
 public class RiceMeal extends Meal{
     @Override

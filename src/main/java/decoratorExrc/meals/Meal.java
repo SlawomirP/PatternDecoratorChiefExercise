@@ -1,4 +1,4 @@
-package decoratorExrc;
+package decoratorExrc.meals;
 
 //klasa bazowa abstrakcyja z metoda do nadpisania w innych klasach
 public abstract class Meal {

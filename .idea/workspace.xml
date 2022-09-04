@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a73ad6-e3dc-4cb2-8512-66ceef3ba14d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/PatatoMeal.java" afterDir="false" />
+    <list default="true" id="a4a73ad6-e3dc-4cb2-8512-66ceef3ba14d" name="Changes" comment="start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/decorators/ChickenMealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/decorators/MealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/decorators/SauceMealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/decorators/ShrimpMealDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decoratorExrc/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/meals/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decoratorExrc/PatatoMeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/meals/PatatoMeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decoratorExrc/RiceMeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decoratorExrc/meals/RiceMeal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="decoratorExrc.decorators" />
+      <recent name="decoratorExrc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decoratorExrc.MainApp" />
+      <module name="PatternDecoratorChief" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decoratorExrc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +80,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662282759961</updated>
     </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1662283555734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662283555734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
 </project>
