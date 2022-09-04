@@ -1,7 +1,7 @@
 package decoratorExrc.decorators;
 
 import decoratorExrc.meals.Meal;
-
+//klasa szablon dla decoratorow
 public class MealDecorator extends Meal {
     protected Meal meal;
     public MealDecorator(Meal meal) {
